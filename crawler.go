@@ -101,7 +101,7 @@ func main() {
 
 	depth, err := strconv.Atoi(os.Args[2])
 	if err != nil {
-		fmt.Printf("%s: need an integer for sencond argument.\n", os.Args[0])
+		fmt.Printf("%s: need an integer for second argument.\n", os.Args[0])
 	}
 	Crawl(os.Args[1], depth, &fetcher)
 }
